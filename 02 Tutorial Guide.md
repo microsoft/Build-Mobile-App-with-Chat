@@ -1,4 +1,4 @@
-Tutorial: Sentiment Analysis for Real-Time Chat
+﻿Tutorial: Sentiment Analysis for Real-Time Chat
 
 Scenario
 ========
@@ -20,7 +20,7 @@ App Services:
 
 In order to be able to deploy and run the Tutorial you need to provision the Azure Services as illustrated in the diagram. Event Hubs ingest chat messages received from websites running in Web Apps. Web Jobs are used to pull chat messages from Event Hubs, invoke the Text Analytics API to apply sentiment scores to each message and to forward messages to Service Bus Topics from which chat participants receive their messages. Stream Analytics is used to drive the archival of scored chat messages into Document DB and Azure Search is used to make the stored chat messages full text searchable.
 
-<img src="./media/image1.png" width="590" height="342" />
+<img src="./media/image2.png" width="590" height="342" />
 
 Pre-Requisites
 ==============
